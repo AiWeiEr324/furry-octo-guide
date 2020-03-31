@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dragSort</title>
+    <style>
+        * {
+            list-style:none;
+        }
+        .item_content {
+            width: 1200px;
+            height: 500px;
+            border: 1px solid #ccc;
+        }
+        .item_content li {
+            width: 300px;
+            height: 250px;
+            float: left;
+            /* background:#888; */
+            /* border-radius: 5px; */
+        }
+        .item_content .item {
+            width: 280px;
+            height: 200px;
+            cursor: all-scroll;
+            text-align: center;
+            line-height: 200px;
+            background: #ccc;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="item_content">
+        <li>
+            <div class="item">1</div>
+        </li>
+        <li>
+            <div class="item">2</div>
+        </li>
+        <li>
+            <div class="item">3</div>
+        </li>
+        <li>
+            <div class="item">4</div>
+        </li>
+        <li>
+            <div class="item">5</div>
+        </li>
+        <li>
+            <div class="item">6</div>
+        </li>
+        <li>
+            <div class="item">7</div>
+        </li>
+        <li>
+            <div class="item">8</div>
+        </li>
+    </ul>
+</body>
+</html>
+<script src="jq.js"></script>
+<script src="drag.js"></script>
